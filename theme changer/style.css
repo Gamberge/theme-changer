@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: roboto;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.container h1 {
+    margin-inline: auto;
+    margin-top: 40px;
+    margin-bottom: 2vw;
+    font-size: 5vw;
+    color: rgb(31, 31, 31);
+}
+
+.container .buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-inline: 25vw;
+    margin-block: 30px;
+}
+
+.container .buttons button {
+    width: 9vw;
+    font-size: 1.3vw;
+    background-color: whitesmoke;
+    line-height: 6vw;
+    border-radius: 20px;
+}
+
+.container .buttons #buttonRed {
+    color: red;
+}
+
+.container .buttons #buttonGreen {
+    color: green;
+}
+
+.container .buttons #buttonBlue {
+    color: blue;
+}
+
+.container .buttons #buttonYellow {
+    color: rgb(202, 202, 6);
+}
+
+.container .navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    border: 1px solid black;
+}
+
+.container .navbar .navbar-left {
+    margin-block: 40px;
+    margin-left: 20px;
+    font-size: 1.7em;
+}
+
+.container .navbar .navbar-right {
+    margin-block: 40px;
+}
+
+.container .navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+.container .navbar .navbar-right ul li {
+    margin-inline: 1vw;
+}
+
+.red-theme {
+    color: red;
+}
+
+.green-theme {
+    color: green;
+}
+
+.blue-theme {
+    color: blue;
+}
+
+.yellow-theme {
+    color: rgb(236, 232, 2);
+}
